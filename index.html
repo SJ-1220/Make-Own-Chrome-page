@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IF=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>sun chrome</title>
+</head>
+<body>
+    <img id="photo" />
+    <div id="username">
+        <form class="hidden" id="login-form">
+            <input required
+                   maxlength="15"
+                   type="text"
+                   placeholder="What is your name?" />
+            <input type="submit" value="Log in" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <h2 id="thought">
+            <span></span>
+            <span></span>
+        </h2>
+        <h2 id="today">1000/00/00</h2>
+        <h2 id="clock">00:00:00</h2>
+    </div>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <script src="js/greeting.js"></script>
+    <script src="js/photo.js"></script>
+    <script src="js/thought.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>

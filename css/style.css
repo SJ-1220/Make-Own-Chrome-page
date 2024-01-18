@@ -1,0 +1,7 @@
+body{
+    background-color : rgb(198,146,202);
+}
+
+div#username{
+    float:right;
+}
